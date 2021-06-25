@@ -1,0 +1,32 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+}
+
+header {
+    background: #b1b1b1;
+}
+img
+{
+    display: none;
+}
+
+h1 , h2 {
+    font-variant: small-caps;
+}
+
+h2 {
+    color:#2b0080;
+}
+
+main {
+    background-color: #7e7e7e;
+}
+
+a {
+    background-color: #c4c4c4;
+    color : black;
+}
