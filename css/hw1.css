@@ -1,18 +1,77 @@
 
+
+/* body font */
 body {
     font-family: 'Times New Roman', Times, serif;
+    margin:5px;
+    padding: 5px;
 }
+
 h1 {
     text-align: center;
+    color: #ffffff;
+    font-size: 200%;
 }
 
 header {
     background: #b1b1b1;
+    background-image: url('../images/flywheel.jpg');
+    padding: 30px;
 }
-img
+
+/* nav */
+nav a {
+    display:inline-block;
+    margin:20px;
+    border-radius: 10%;
+    text-decoration: none;
+    padding:5px;
+    background-color: #c4c4c4;
+    color : #000000;
+    opacity: 0.5;
+    padding: 1%;
+    width: 100px;
+    text-align:center;
+
+}
+
+
+
+
+/* a active */
+
+.active{
+    background-color: #ffffff;
+    color:#2b0080;
+    opacity: 1;
+}
+
+.left{
+    background-color:#717f08;
+    float:left;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+
+
+.left img
 {
-    display: none;
+    width: 150px;
+    border: 1px solid black;
+    margin:5px;
+    
+
 }
+
+section {
+    float: left;
+    width: 50%;
+    margin: 10px;
+}
+
 
 h1 , h2 {
     font-variant: small-caps;
@@ -22,11 +81,76 @@ h2 {
     color:#2b0080;
 }
 
-main {
-    background-color: #7e7e7e;
+/* table styling */
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin:20px;
+    padding:2px;
+    font-style: italic;
 }
 
-a {
-    background-color: #c4c4c4;
-    color : black;
+th,td{
+    padding: 5px;
 }
+
+
+
+
+/* table header design */
+th{
+    background-color: #88a94d;
+    background: -moz-linear-gradient(top,#88a94d 0%,#dffc02 100%);
+    background: -o-linear-gradient(top,#88a94d 0%,#717f08 100%);
+    background: -webkit-linear-gradient(top,#88a94d 0%,#717f08 100%);
+    background: linear-gradient(top,#88a94d 0%,#717f08 100%);
+    border-bottom:5px solid rgb(201, 247, 170);
+    text-shadow:1px 1px seashell;
+    text-align: center;
+    
+}
+
+tr{
+    opacity: 0.8;
+}
+
+tr:hover{
+    opacity:1;
+}
+
+tr th:first-child{
+    border-top-left-radius: 5px;
+    text-align: left;
+}
+
+tr th:last-child{
+    border-top-right-radius: 5px;
+}
+
+
+/* td styling */
+td{
+    border-radius: 2px;
+    padding:5px;
+    background-color: rgb(201, 247, 170);
+    text-shadow:1px 1px seashell;
+
+    
+}
+
+tr td{
+    text-align: center;
+}
+
+tr td:first-child{
+    text-align: left;
+}
+
+
+aside{
+    height: 100vw;
+}
+
+
+
